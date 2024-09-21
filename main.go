@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go_final_project/constans"
-	"go_final_project/handler"
-	"go_final_project/repository"
+	"github.com/smir7/scheduler/constans"
+	"github.com/smir7/scheduler/handler"
+	"github.com/smir7/scheduler/repository"
 	"log"
 	_ "modernc.org/sqlite"
 	"net/http"
