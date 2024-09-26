@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/smir7/scheduler/constans"
-	"github.com/smir7/scheduler/handler"
-	"github.com/smir7/scheduler/repository"
 	"log"
 	_ "modernc.org/sqlite"
 	"net/http"
 	"os"
+
+	"github.com/smir7/scheduler/constans"
+	"github.com/smir7/scheduler/handler"
+	"github.com/smir7/scheduler/repository"
 )
 
 func main() {
